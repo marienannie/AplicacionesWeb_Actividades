@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"><title>Práctica FrontEnd - BackEnd</title>
+    </head>
+    <body>
+        <h1>Comunicación FrontEnd y BackEnd</h1>
+        <!-- FORMULARIO GET -->
+        <form action="ProcesarServlet" method="GET">
+            <label>Nombre:</label> <input type="text" name="txtNombre" required><br/>
+            <label>Correo:</label> <input type="email" name="txtCorreo" required><br/>
+            <input type="submit" value="Enviar por GET">
+        </form>
+        
+        
+        <!-- FORMULARIO POST -->
+        <form action="ProcesarServlet" method="POST">
+            <label>Nombre:</label> <input type="text" name="txtNombre" required><br/>
+            <label>Correo:</label> <input type="email" name="txtCorreo" required><br/>
+            <input type="submit" value="Enviar por POST">
+        </form>
+    </body>
+</html>
